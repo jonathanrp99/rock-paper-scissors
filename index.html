@@ -11,15 +11,17 @@
     <div class="header">
         <h2>Rock paper scissors</h2>
     </div>   
-    <div class="game">
-        <h2 class="gameText" id="playerText"></h2>
-        <h2 class="gameText" id="computerText"></h2>
-        <h2 class="gameText" id="resultText"></h2>
+    <div id="gameDiv">
+        <h1 class="gameText" id="playerText">Player: </h1>
+        <h1 class="gameText" id="computerText">Computer: </h1>
+        <h1 class="gameText" id="resultText">Result: </h1>
         <div class="choices">
-            <button class="rock"><img src="rock.png" width="60px" height="60px"></button>
-            <button class="paper"><img src="paper.png" width="60px" height="60px"></button>
-            <button class="scissors"><img src="scissors.png" width="60px" height="60px"></button>
+            <button class="choiceBtn"><img src="rock.png" width="60px" height="60px"><h3>rock</h3></button>
+            <button class="choiceBtn"><img src="paper.png" width="60px" height="60px"><h3>paper</h3></button>
+            <button class="choiceBtn"><img src="scissors.png" width="60px" height="60px"><h3>scissors</h3></button>
         </div>
     </div>
 </body>
 </html>
+
+<script src="main.js"></script>

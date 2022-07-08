@@ -16,16 +16,18 @@
 }
 
 .choices{
-    height: 88vh;
+    height: 70vh;
     width: 100vw;
     display: flex;
     justify-content: space-evenly;
     align-items: flex-end;
 }
 
-.choices button{
+button{
     width: 9rem;
     height: 4.5rem;
-    background-color: #999;
+    background-color: inherit;
     cursor: pointer;
+    background-color: inherit;
+    border: none;
 }
