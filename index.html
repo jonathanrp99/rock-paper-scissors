@@ -8,24 +8,16 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="header">
-        <h2>Rock paper scissors</h2>
-    </div>   
-    <div id="gameDiv">
-        <h1 class="gameText" id="playerText">Player: </h1>
-        <h1 class="gameText" id="computerText">Computer: </h1>
-        <h1 class="gameText" id="resultText">Result: </h1>
-        <div class="visual-choices">
-            <div class="my-choice"><img src="rock.png" width="60px" height="60px"></div>
-            <div class="computer-choice"><img src="rock.png" width="60px" height="60px"></div>
-        </div>
-        <div class="choices">
-            <button class="choiceBtn"><img src="rock.png" width="60px" height="60px"><h3>rock</h3></button>
-            <button class="choiceBtn"><img src="paper.png" width="60px" height="60px"><h3>paper</h3></button>
-            <button class="choiceBtn"><img src="scissors.png" width="60px" height="60px"><h3>scissors</h3></button>
-        </div>
-    </div>
+    <img id="my-choice" src="rock.png" width="107" height="98">
+    <img id="computer-choice" src="rock.png" width="107" height="98">
+    <div class="movesleft">Moves Left: 10 </div>
+<div class="options">
+<button onclick="chooseRock()" class="rock"><img src="rock.png" width="107" height="98">Rock</button>
+<button onclick="choosePaper()" class="paper"><img src="paper.png" width="107" height="98">Paper</button>
+<button onclick="chooseScissors()" class="scissor"><img src="scissors.png" width="107" height="98">Scissors</button>   
+</div>   
 </body>
 </html>
+
 
 <script src="main.js"></script>
