@@ -8,14 +8,21 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div id="gameDiv">
+        <h1 class="gameText" id="playerText">Player: </h1>
+        <h1 class="gameText" id="computerText">Computer: </h1>
+        <h1 class="gameText" id="resultText">Result: </h1>
+
     <img id="my-choice" src="rock.png" width="107" height="98">
     <img id="computer-choice" src="rock.png" width="107" height="98">
     <div class="movesleft">Moves Left: 10 </div>
 <div class="options">
-<button onclick="chooseRock()" class="rock"><img src="rock.png" width="107" height="98">Rock</button>
-<button onclick="choosePaper()" class="paper"><img src="paper.png" width="107" height="98">Paper</button>
-<button onclick="chooseScissors()" class="scissor"><img src="scissors.png" width="107" height="98">Scissors</button>   
+<button onclick="chooseRock()" class="choiceBtn"><img src="rock.png" width="107" height="98">Rock</button>
+<button onclick="choosePaper()" class="choiceBtn"><img src="paper.png" width="107" height="98">Paper</button>
+<button onclick="chooseScissors()" class="choiceBtn"><img src="scissors.png" width="107" height="98">Scissors</button>   
 </div>   
+</div>
+<button class="reload">Retry</button>
 </body>
 </html>
 

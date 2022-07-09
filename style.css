@@ -48,5 +48,15 @@ button{
     cursor: pointer;
     background-color: inherit;
     border: none;
-    
+}
+
+.reload {
+    display: none;
+    margin-top: 2rem;
+    padding: 1rem;
+    background: green;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
 }
