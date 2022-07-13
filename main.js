@@ -80,5 +80,3 @@ if(moves == 10){
     function chooseScissors() {
         document.getElementById("my-choice").src = "scissors.png";
     }
-
-

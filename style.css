@@ -7,6 +7,7 @@
 body {
     height: 100vh;
     width: 100vw;
+    background-color: rgb(209, 206, 206);
 }
 .title{
     display: flex;
@@ -14,12 +15,25 @@ body {
     align-items: center;
     height: 10vh;
     width: 100vw;
-    background-image: linear-gradient(to top, #09203f 0%,
+    background-image: linear-gradient(to top, #97a1af 0%,
      #537895 100%);
     color: #dedede;
 }
 
+#playerText{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-self: center;
+    color: rgba(13, 102, 165, 0.914);
+}
 
+#computerText{
+    margin-bottom: 1rem;
+    display: flex;
+    justify-self: center;
+    color: rgba(178, 65, 45, 0.693);
+}
 
 #my-choice {
     background-color: rgba(29, 144, 226, 0.6);
@@ -37,26 +51,42 @@ body {
     height: 30vh;
     width: 100vw;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: flex-end;
 }
 
 button{
-    width: 9rem;
-    height: 4.5rem;
     background-color: inherit;
     cursor: pointer;
     background-color: inherit;
     border: none;
 }
 
+.options {
+    height: 30vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.movesleft{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+
 .reload {
     display: none;
-    margin-top: 2rem;
-    padding: 1rem;
-    background: green;
+    background: rgb(36, 159, 201);
     outline: none;
     border: none;
-    border-radius: 10px;
+    border-radius: 10%;
     cursor: pointer;
+    position: absolute;
+    left: 1rem;
+    padding: 10px;
+    font-size: 1.3rem;
 }

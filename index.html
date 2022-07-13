@@ -8,20 +8,23 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="title">Rock paper scissors</div>
     <div id="gameDiv">
         <h1 class="gameText" id="playerText">Player: </h1>
         <h1 class="gameText" id="computerText">Computer: </h1>
         <h1 class="gameText" id="resultText">Result: </h1>
-
+        </div>
+<div class="choices">
     <img id="my-choice" src="rock.png" width="107" height="98">
     <img id="computer-choice" src="rock.png" width="107" height="98">
+</div>
     <div class="movesleft">Moves Left: 10 </div>
 <div class="options">
-<button onclick="chooseRock()" class="choiceBtn"><img src="rock.png" width="107" height="98">Rock</button>
-<button onclick="choosePaper()" class="choiceBtn"><img src="paper.png" width="107" height="98">Paper</button>
-<button onclick="chooseScissors()" class="choiceBtn"><img src="scissors.png" width="107" height="98">Scissors</button>   
+<button onclick="chooseRock()" class="choiceBtn"><img src="rock.png" width="107" height="98"><p>Rock</p></button>
+<button onclick="choosePaper()" class="choiceBtn"><img src="paper.png" width="107" height="98"><p>Paper</p></button>
+<button onclick="chooseScissors()" class="choiceBtn"><img src="scissors.png" width="107" height="98"><p>Scissors</p></button>   
 </div>   
-</div>
+
 <button class="reload">Retry</button>
 </body>
 </html>
